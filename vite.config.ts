@@ -10,5 +10,8 @@ export default defineConfig({
     outDir: '../dist',
     emptyOutDir: true,
   },
-  plugins: [react(), VitePWA()]
+  plugins: [react(), VitePWA()],
+  server: {
+    host: true
+  }
 })

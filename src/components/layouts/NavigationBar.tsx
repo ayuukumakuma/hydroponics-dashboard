@@ -6,21 +6,18 @@ export const NavigationBar = () => {
       h={'100vh'}
       w={'80px'}
       bg={'green'}
-      sx={{
-        borderRadius: '0 20px 20px 0',
-      }}
       willChange={'width'}
-      transition={'1s ease'}
+      transition={'.3s ease'}
       _hover={{ width: '180px' }}
     >
-      <Tabs align={'center'} isFitted variant={'solid-rounded'} size={'lg'}>
+      <Tabs align={'center'} isFitted variant={'solid-rounded'} size={'lg'} pt={'4'}>
         <TabList>
           <Stack>
-            <Tab _hover={{ color: '#fff' }}>one</Tab>
-            <Tab _hover={{ color: '#fff' }}>two</Tab>
-            <Tab _hover={{ color: '#fff' }}>three</Tab>
-            <Tab _hover={{ color: '#fff' }}>four</Tab>
-            <Tab _hover={{ color: '#fff' }}>five</Tab>
+            <Tab _hover={{ color: '#fff' }}>水温</Tab>
+            <Tab _hover={{ color: '#fff' }}>肥料</Tab>
+            <Tab _hover={{ color: '#fff' }}>気温</Tab>
+            <Tab _hover={{ color: '#fff' }}>湿度</Tab>
+            <Tab _hover={{ color: '#fff' }}>CO2</Tab>
           </Stack>
         </TabList>
       </Tabs>
