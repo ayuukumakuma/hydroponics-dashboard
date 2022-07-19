@@ -7,7 +7,7 @@ export const NavigationBar = () => {
       w={'80px'}
       bg={'green'}
       willChange={'width'}
-      transition={'.3s ease'}
+      transition={'.4s ease'}
       _hover={{ width: '180px' }}
     >
       <Tabs align={'center'} isFitted variant={'solid-rounded'} size={'lg'} pt={'4'}>
